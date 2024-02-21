@@ -4,4 +4,4 @@ It's a simple dispatcher only. Response can be edited, length is checked on rece
 I took the infos from the - probably well known - blue header spreadsheet. There are some responses where the explanation regarding length field seems to be wrong.
 
 This P17 protocol variant on RS232 uses ^ as first symbol for any information followed by its length and then followed by the command and its parameters. Only responsees (^D) then add a 16bits checksum while commands (^P and ^S) don't.
-Any information is terminated by a <cr> symbol.
+Any information is terminated by a \<cr\> symbol.
